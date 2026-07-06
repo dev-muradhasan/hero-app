@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -27,51 +29,56 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <NavLink className={"font-semibold"} to={"/"}>
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <NavLink className={"font-semibold"} to={"/apps"}>
+                  Apps
+                </NavLink>
               </li>
               <li>
-                <a>Item 3</a>
+                <NavLink className={"font-semibold"} to={"/installation"}>
+                  Installation
+                </NavLink>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link className="font-bold flex items-center gap-2 lg:ml-10">
+            <img className="w-8 h-8" src="/src/assets/logo.png" alt="" />
+            <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+              HERO.IO
+            </span>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <NavLink className={"font-semibold"} to={"/"}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2 bg-base-100 w-40 z-1">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <NavLink className={"font-semibold"} to={"/apps"}>
+                Apps
+              </NavLink>
             </li>
             <li>
-              <a>Item 3</a>
+              <NavLink className={"font-semibold"} to={"/installation"}>
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="navbar-end lg:mr-10">
+          <Link
+            to={"https://github.com/dev-muradhasan"}
+            className="btn flex items-center gap-2 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
+          >
+            <FaGithub className="w-5 h-5" />
+            <span className="font-semibold">Contribute</span>
+          </Link>
         </div>
       </div>
     );
