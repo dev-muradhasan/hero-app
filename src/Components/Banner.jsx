@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
+import googlePlay from '../assets/icons8-google-play-store-96.png'
+import appStore from '../assets/icons8-app-store-96.png'
+import hero from '../assets/hero.png'
 
 const Banner = () => {
   return (
@@ -25,7 +28,7 @@ const Banner = () => {
           >
             <img
               className="w-8 h-8"
-              src="/src/assets/icons8-google-play-store-96.png"
+              src={googlePlay}
               alt=""
             />{" "}
             Google Play
@@ -36,7 +39,7 @@ const Banner = () => {
           >
             <img
               className="w-8 h-8"
-              src="/src/assets/icons8-app-store-96.png"
+             src={appStore}
               alt=""
             />
             App Store
@@ -46,7 +49,7 @@ const Banner = () => {
       <div>
         <img
           className="w-2xl block mx-auto"
-          src="/src/assets/hero.png"
+          src={hero}
           alt=""
         />
       </div>
