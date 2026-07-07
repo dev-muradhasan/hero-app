@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
 
-
 const Banner = () => {
   return (
     <div className="space-y-10 max-w-screen-2xl w-full mx-auto px-4 md:px-8 lg:px-12">

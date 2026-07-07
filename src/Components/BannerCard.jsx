@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerCard = () => {
     return (
-      <div className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white px-4 md:px-8 lg:px-12 py-16 space-y-12">
+      <div className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white px-4 md:px-8 lg:px-12 py-16 space-y-12 mb-10 md:mb-12 lg:mb-16">
         <h1 className="font-bold text-3xl lg:text-4xl text-center">
           Trusted by Millions, Built for You
         </h1>

@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+     "image": "https://cdn.simpleicons.org/spotify",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is one of the world's most popular music streaming platforms, giving users instant access to millions of songs, albums, playlists, and podcasts from artists around the globe. Whether you enjoy pop, rock, classical, jazz, or local music, Spotify offers personalized recommendations based on your listening habits. Users can create custom playlists, follow favorite artists, download songs for offline listening, and discover trending tracks every day. Premium users enjoy an ad-free experience, unlimited skips, and high-quality audio streaming. The app also features exclusive podcasts, lyrics support, collaborative playlists, and seamless synchronization across smartphones, tablets, desktops, smart TVs, and wearable devices, making it an excellent entertainment platform for music lovers.",
+    "category": "Music Streaming",
+    "size": 89,
+    "reviews": 32,
+    "ratingAvg": 4.8,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 950000 },
+      { "name": "4 star", "count": 5100000 },
+      { "name": "5 star", "count": 25520000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.simpleicons.org/whatsapp",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "description": "WhatsApp is a secure messaging and calling application used by billions of people worldwide. It allows users to send text messages, voice messages, photos, videos, documents, and live locations instantly. The app supports high-quality voice and video calls with end-to-end encryption, ensuring user privacy. Group chats, communities, status updates, disappearing messages, and multi-device support make communication easier than ever. WhatsApp Business also enables companies to connect with customers professionally. With its fast performance, simple interface, and cross-platform compatibility, WhatsApp has become one of the most trusted communication tools for personal and professional conversations.",
+    "category": "Messaging App",
+    "size": 78,
+    "reviews": 96,
+    "ratingAvg": 4.7,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 42000000 },
+      { "name": "5 star", "count": 159000000 }
+    ]
+  },
+  {
+    "id": 3,
+ "image": "https://cdn.simpleicons.org/instagram",
+     "title": "Instagram",
+    "companyName": "Meta",
+    "description": "Instagram is a leading social media platform where users share photos, videos, stories, reels, and live broadcasts with friends and followers. The app includes powerful editing tools, creative filters, trending music, and AI-powered content recommendations. Creators can build audiences, businesses can promote products, and users can communicate through direct messages. Reels provide short-form entertainment while stories keep followers updated throughout the day. Instagram also supports shopping features, professional dashboards, and analytics for creators, making it one of the most influential platforms for content creation and online engagement.",
+    "category": "Social Media",
+    "size": 95,
+    "reviews": 88,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 38000000 },
+      { "name": "5 star", "count": 101400000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.simpleicons.org/facebook",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "description": "Facebook connects billions of people around the world through posts, photos, videos, groups, pages, events, and marketplace features. Users can stay connected with friends and family, follow favorite creators, join communities, and discover local businesses. The platform supports live streaming, messaging, video calls, gaming, and personalized news feeds powered by intelligent recommendations. Businesses can create pages, run advertisements, and communicate directly with customers, making Facebook one of the largest online social networking platforms globally.",
+    "category": "Social Network",
+    "size": 102,
+    "reviews": 92,
+    "ratingAvg": 4.4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 4800000 },
+      { "name": "2 star", "count": 6200000 },
+      { "name": "3 star", "count": 13000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 79000000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.simpleicons.org/youtube",
+    "title": "YouTube",
+    "companyName": "Google",
+    "description": "YouTube is the world's largest video-sharing platform where users can watch, upload, and share videos covering entertainment, education, gaming, technology, music, sports, and more. It supports high-quality streaming, live broadcasts, subscriptions, playlists, offline downloads, andnalized recommendations. YouTube Premium provides ad-free viewing, while YouTube Music offers dedicated music streaming. Millions of creators publish content daily, making the platform an essential destination for learning, entertainment, and global communication.",
+    "category": "Video Streaming",
+    "size": 110,
+    "reviews": 90,
+    "ratingAvg": 4.7,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3900000 },
+      { "name": "3 star", "count": 9200000 },
+      { "name": "4 star", "count": 44000000 },
+      { "name": "5 star", "count": 112400000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.simpleicons.org/netflix",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Netflix is a premium streaming platform offering thousands of movies, TV shows, documentaries, and exclusive original content. Users receive personalized recommendations based on viewing history and can download selected content for offline watching. The app supports multiple profiles, parental controls, subtitles in various languages, and Ultra HD streaming on supported devices. With fresh releases every week and award-winning originals, Netflix remains one of the world's leading entertainment services.",
+    "category": "Movie Streaming",
+    "size": 76,
+    "reviews": 14,
+    "ratingAvg": 4.5,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3800000 },
+      { "name": "5 star", "count": 9150000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.simpleicons.org/discord",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a communication platform designed for communities, gamers, developers, students, and businesses. Users can create servers, participate in voice and video calls, share files, stream games, and organize conversations through channels. It offers customizable roles, bots, moderation tools, and cross-platform synchronization. Discord has become one of the most popular community-building platforms thanks to its flexibility, performance, and real-time communication features.",
+    "category": "Community Chat",
+    "size": 87,
+    "reviews": 6,
+    "ratingAvg": 4.7,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 430000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 3840000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn.simpleicons.org/notion",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "description": "Notion combines note-taking, task management, databases, wikis, calendars, and collaboration into one powerful productivity application. Individuals and teams can organize projects, document ideas, track goals, and manage workflows using customizable templates. Real-time collaboration, cloud synchronization, AI-powered writing assistance, and cross-device accessibility make Notion a favorite workspace for students, professionals, startups, and enterprises worldwide.",
+    "category": "Productivity Tool",
+    "size": 64,
+    "reviews": 190,
+    "ratingAvg": 4.8,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://cdn.simpleicons.org/figma",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "description": "Figma is a collaborative interface design and prototyping platform used by designers, developers, and product teams. Users can create UI designs, interactive prototypes, design systems, wireframes, and collaborate in real time. Cloud-based access eliminates version conflicts while powerful plugins and developer handoff tools streamline product development. Figma has become one of the most widely adopted tools in modern UI and UX design workflows.",
+    "category": "UI Design",
+    "size": 82,
+    "reviews": 150,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3600 },
+      { "name": "3 star", "count": 9800 },
+      { "name": "4 star", "count": 41000 },
+      { "name": "5 star", "count": 93800 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://cdn.simpleicons.org/github",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "description": "GitHub is the world's leading platform for software development and version control. Developers can host repositories, collaborate on open-source projects, review code, manage issues, automate workflows with GitHub Actions, and deploy applications efficiently. It integrates seamlessly with popular development tools and supports millions of projects across every programming language. GitHub has become an essential platform for modern software engineering, collaboration, and continuous integration.",
+    "category": "Developer Tool",
+    "size": 58,
+    "reviews": 102,
+    "ratingAvg": 4.8,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 59200 }
+    ]
+  },
+   {
+    "id": 11,
+    "image": "https://cdn.simpleicons.org/telegram",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "description": "Telegram is a fast and secure cloud-based messaging application designed for both personal and professional communication. Users can send unlimited text messages, photos, videos, files, voice notes, and documents with excellent speed. The platform supports large group chats, public and private channels, bots, voice chats, video calls, and end-to-end encrypted secret chats for maximum privacy. Telegram works seamlessly across smartphones, tablets, desktops, and web browsers, keeping conversations synchronized everywhere. It also provides customizable themes, animated stickers, polls, scheduled messages, and powerful search capabilities, making it one of the most feature-rich messaging applications available today.",
+    "category": "Messaging App",
+    "size": 72,
+    "reviews": 18.2,
+    "ratingAvg": 4.7,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4200000 },
+      { "name": "5 star", "count": 12600000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "description": "LinkedIn is the world's largest professional networking platform where users can build resumes, connect with professionals, search for jobs, publish articles, and expand their careers. Recruiters use LinkedIn to hire talented candidates while businesses promote their brands and services. Members can join professional communities, participate in discussions, follow industry leaders, complete learning courses, and receive personalized job recommendations. LinkedIn also offers messaging, company pages, certifications, and networking opportunities, making it an essential platform for students, professionals, freelancers, and organizations around the world.",
+    "category": "Career Network",
+    "size": 84,
+    "reviews": 2.9,
+    "ratingAvg": 4.5,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 65000 },
+      { "name": "2 star", "count": 110000 },
+      { "name": "3 star", "count": 310000 },
+      { "name": "4 star", "count": 890000 },
+      { "name": "5 star", "count": 1575000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://cdn.simpleicons.org/reddit",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "Reddit is a community-driven social platform where millions of users participate in discussions across thousands of interest-based communities called subreddits. Members can post questions, share images, videos, news, memes, tutorials, and experiences while voting content up or down. Personalized feeds, live discussions, anonymous participation, moderation tools, and community awards create a unique online experience. Reddit covers technology, education, entertainment, sports, science, gaming, finance, and countless other topics, making it one of the largest online discussion platforms worldwide.",
+    "category": "Discussion Forum",
+    "size": 69,
+    "reviews": 3.2,
+    "ratingAvg": 4.6,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 76000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 940000 },
+      { "name": "5 star", "count": 1932000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png",
+    "title": "Slack",
+    "companyName": "Salesforce",
+    "description": "Slack is a workplace communication platform that helps teams collaborate efficiently through channels, direct messaging, file sharing, voice calls, and video meetings. Organizations use Slack to manage projects, automate workflows, integrate hundreds of productivity tools, and communicate in real time. Powerful search capabilities, customizable notifications, app integrations, and enterprise-grade security make Slack an excellent solution for businesses of every size. Teams can organize conversations, share documents instantly, and improve productivity across departments using one centralized platform.",
+    "category": "Team Chat",
+    "size": 80,
+    "reviews": 560,
+    "ratingAvg": 4.5,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 46000 },
+      { "name": "4 star", "count": 170000 },
+      { "name": "5 star", "count": 317000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://cdn.simpleicons.org/zoom",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Zoom provides high-quality video conferencing, webinars, screen sharing, online meetings, and virtual collaboration for individuals, schools, and businesses. Users can host meetings with hundreds of participants, record sessions, share presentations, and collaborate using whiteboards and chat features. Zoom offers excellent audio quality, virtual backgrounds, meeting scheduling, breakout rooms, and cloud recording capabilities. Its reliability and ease of use have made it one of the most popular online communication platforms worldwide.",
+    "category": "Video Meeting",
+    "size": 91,
+    "reviews": 4.7,
+    "ratingAvg": 4.6,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 54000 },
+      { "name": "2 star", "count": 89000 },
+      { "name": "3 star", "count": 310000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 2847000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/canva.svg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "description": "Canva is an easy-to-use graphic design platform that enables users to create professional presentations, posters, logos, social media posts, videos, documents, resumes, and marketing materials without advanced design experience. It includes thousands of templates, stock photos, icons, fonts, animations, AI-powered editing tools, and collaborative features. Canva supports real-time teamwork, cloud storage, and one-click exports, making it one of the most popular creative tools for students, professionals, educators, and businesses.",
+    "category": "Graphic Design",
+    "size": 73,
+    "reviews": 18,
+    "ratingAvg": 4.8,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 86000 },
+      { "name": "2 star", "count": 142000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 14252000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://cdn.simpleicons.org/googlemaps",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "description": "Google Maps provides accurate navigation, real-time traffic updates, satellite imagery, street views, business information, restaurant reviews, offline maps, and route planning. Users can discover nearby places, estimate travel times, share locations, and navigate using driving, walking, cycling, or public transportation modes. The application continuously updates maps using real-time information, making travel easier and more reliable for millions of users worldwide.",
+    "category": "Navigation App",
+    "size": 126,
+    "reviews": 18,
+    "ratingAvg": 4.7,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 4600000 },
+      { "name": "5 star", "count": 12730000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://cdn.simpleicons.org/gmail",
+    "title": "Gmail",
+    "companyName": "Google",
+    "description": "Gmail is Google's email service that provides secure, reliable, and fast communication for personal and professional use. Users can send emails, manage attachments, organize conversations, filter spam, schedule messages, and synchronize mail across multiple devices. Gmail integrates seamlessly with Google Workspace applications including Drive, Docs, Meet, and Calendar. Advanced search capabilities, smart replies, and strong security features make Gmail one of the world's most trusted email services.",
+    "category": "Email Service",
+    "size": 68,
+    "reviews": 12,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 96000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 630000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 8864000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://cdn.simpleicons.org/googlechrome",
+    "title": "Google Chrome",
+    "companyName": "Google",
+    "description": "Google Chrome is a fast, secure, and reliable web browser designed for seamless internet browsing across desktop and mobile devices. It supports synchronization of bookmarks, passwords, browsing history, and tabs using a Google account. Chrome offers advanced security protections, built-in translation, extensions, developer tools, and optimized performance. Millions of users rely on Chrome every day for browsing websites, online shopping, streaming, research, and productivity.",
+    "category": "Web Browser",
+    "size": 95,
+    "reviews": 44,
+    "ratingAvg": 4.7,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 220000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 9200000 },
+      { "name": "5 star", "count": 33060000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://cdn.simpleicons.org/trello",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "description": "Trello is a visual project management application that helps individuals and teams organize tasks using boards, lists, and cards. Users can assign deadlines, upload files, automate workflows, collaborate with teammates, and track project progress in real time. The application integrates with popular productivity tools, supports mobile and desktop devices, and offers customizable templates for software development, education, marketing, and personal planning. Trello simplifies project organization through its intuitive drag-and-drop interface.",
+    "category": "Task Manager",
+    "size": 61,
+    "reviews": 420,
+    "ratingAvg": 4.7,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 9200 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 121000 },
+      { "name": "5 star", "count": 257600 }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://cdn.simpleicons.org/airbnb",
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "description": "Airbnb is a global travel platform that allows users to discover and book unique accommodations, apartments, villas, hotels, and local experiences in thousands of cities worldwide. Travelers can browse detailed property listings, compare prices, read verified reviews, communicate directly with hosts, and securely complete reservations. Hosts can list their properties, manage bookings, set availability, and earn income through the platform. Airbnb also provides flexible cancellation policies, secure payment processing, travel recommendations, and customer support, making it one of the most trusted platforms for vacation rentals and travel experiences.",
+    "category": "Travel Booking",
+    "size": 94,
+    "reviews": 325,
+    "ratingAvg": 4,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 56000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 860000 },
+      { "name": "5 star", "count": 2126000 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://cdn.simpleicons.org/paypal",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings",
+    "description": "PayPal is a secure online payment platform that enables users to send money, receive payments, shop online, and manage financial transactions quickly and safely. Individuals and businesses can link bank accounts or cards, pay invoices, transfer funds internationally, and monitor transaction history in one place. The application uses advanced security technologies, fraud protection, and encryption to safeguard financial information while offering convenient digital payment solutions for millions of users around the world.",
+    "category": "Digital Payment",
+    "size": 83,
+    "reviews": 3,
+    "ratingAvg": 4.6,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 85000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 820000 },
+      { "name": "5 star", "count": 1753000 }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "https://res.cloudinary.com/hy4urdfq/image/upload/f_auto,q_auto/pngwing.com_2_g47low",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "description": "Amazon Shopping provides access to millions of products across electronics, fashion, groceries, books, beauty, and home essentials. Users can search products, compare prices, read customer reviews, place secure orders, track deliveries, and manage returns directly from the app. Personalized recommendations, wishlists, exclusive deals, and fast delivery services help customers enjoy a convenient online shopping experience from virtually anywhere.",
+    "category": "Online Shopping",
+    "size": 112,
+    "reviews": 8,
+    "ratingAvg": 4.8,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 72000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 2050000 },
+      { "name": "5 star", "count": 5418000 }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://cdn.simpleicons.org/ubereats",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies",
+    "description": "Uber Eats connects customers with thousands of restaurants and grocery stores through a fast and reliable food delivery service. Users can browse menus, customize orders, schedule deliveries, track drivers in real time, and make secure digital payments. Restaurants benefit from increased visibility while customers enjoy quick delivery, exclusive discounts, and personalized recommendations from local and international food brands.",
+    "category": "Food Delivery",
+    "size": 88,
+    "reviews": 2,
+    "ratingAvg": 4.5,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 87000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 720000 },
+      { "name": "5 star", "count": 1553000 }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://cdn.simpleicons.org/duolingo",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "description": "Duolingo is one of the world's most popular language learning applications, offering interactive lessons in dozens of languages. Users improve vocabulary, grammar, pronunciation, and listening skills through short exercises, quizzes, games, and speaking challenges. Personalized learning paths, daily streaks, progress tracking, achievements, and AI-powered exercises make language learning engaging for beginners and advanced learners alike.",
+    "category": "Language Learning",
+    "size": 64,
+    "reviews": 19,
+    "ratingAvg": 4.8,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 92000 },
+      { "name": "2 star", "count": 155000 },
+      { "name": "3 star", "count": 510000 },
+      { "name": "4 star", "count": 4100000 },
+      { "name": "5 star", "count": 14943000 }
+    ]
+  },
+  {
+    "id": 26,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "description": "ChatGPT is an AI assistant designed to help users write, learn, brainstorm ideas, answer questions, generate code, summarize documents, translate languages, and solve complex problems. It supports natural conversations, creative writing, programming assistance, educational explanations, and productivity tasks across multiple devices. Regular updates continue to improve accuracy, reasoning, and overall user experience for students, professionals, and creators.",
+    "category": "AI Assistant",
+    "size": 75,
+    "reviews": 9,
+    "ratingAvg": 4.9,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 48000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 1250000 },
+      { "name": "5 star", "count": 8017000 }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "https://cdn.simpleicons.org/pinterest",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Pinterest helps users discover and organize ideas related to fashion, recipes, home decoration, travel, photography, DIY projects, and more. Users can save pins, create themed boards, follow creators, and explore personalized recommendations based on their interests. Rich visual content and powerful search tools make Pinterest an inspiring platform for planning projects and discovering creative ideas.",
+    "category": "Idea Sharing",
+    "size": 79,
+    "reviews": 9,
+    "ratingAvg": 4.6,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 86000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 6344000 }
+    ]
+  },
+  {
+    "id": 28,
+    "image": "https://cdn.simpleicons.org/tiktok",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "TikTok is a short-form video platform where users create, edit, and share entertaining videos using music, filters, effects, and AI-powered editing tools. The app features personalized recommendations, live streaming, messaging, creator tools, and trending challenges across entertainment, education, sports, technology, and lifestyle. Millions of creators use TikTok daily to reach global audiences and build communities.",
+    "category": "Short Videos",
+    "size": 134,
+    "reviews": 62,
+    "ratingAvg": 4.7,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 760000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 14500000 },
+      { "name": "5 star", "count": 44090000 }
+    ]
+  },
+  {
+    "id": 29,
+    "image": "https://cdn.simpleicons.org/x",
+    "title": "X",
+    "companyName": "X Corp.",
+    "description": "X is a real-time social networking platform where users can post updates, follow trending topics, watch live videos, participate in discussions, and interact with creators, businesses, and public figures. The platform offers direct messaging, communities, spaces for live audio conversations, verification features, and personalized recommendations to keep users informed about global events and interests.",
+    "category": "Social Media",
+    "size": 92,
+    "reviews": 25,
+    "ratingAvg": 4.5,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 420000 },
+      { "name": "2 star", "count": 610000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6900000 },
+      { "name": "5 star", "count": 15970000 }
+    ]
+  },
+  {
+    "id": 30,
+    "image": "https://cdn.simpleicons.org/snapchat",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a multimedia messaging application that allows users to share disappearing photos, videos, stories, and real-time location with friends. It features augmented reality lenses, creative filters, Bitmoji avatars, Spotlight videos, group chats, voice calls, and video calls. The app focuses on fun communication while continuously introducing innovative camera technologies and interactive social experiences for users worldwide.",
+    "category": "Photo Sharing",
+    "size": 106,
+    "reviews": 33,
+    "ratingAvg": 4.6,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 260000 },
+      { "name": "2 star", "count": 430000 },
+      { "name": "3 star", "count": 1180000 },
+      { "name": "4 star", "count": 9100000 },
+      { "name": "5 star", "count": 22830000 }
+    ]
+  }
+]
