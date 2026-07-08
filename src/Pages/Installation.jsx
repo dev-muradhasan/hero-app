@@ -33,7 +33,7 @@ const Installation = () => {
      if (sortOrder === "size-asc") {
        return [...appList].sort((a, b) => b.size - a.size);
      } else if (sortOrder === "size-dasc") {
-       return [...appList].sort((a, b) => a.ratingAvg - b.ratingAvg);
+       return [...appList].sort((a, b) => a.size - b.size);
      } else {
        return appList;
      }
