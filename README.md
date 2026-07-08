@@ -6,7 +6,7 @@ HERO.IO is a modern and responsive application marketplace built with React. Use
 
 ## 🌐 Live Website
 
-(https://relaxed-panda-7974af.netlify.app/apps)
+https://relaxed-panda-7974af.netlify.app
 
 ---
 
