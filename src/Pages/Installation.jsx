@@ -32,7 +32,7 @@ const Installation = () => {
    const sortedItem = (() => {
      if (sortOrder === "size-asc") {
        return [...appList].sort((a, b) => b.size - a.size);
-     } else if (sortOrder === "rating-dasc") {
+     } else if (sortOrder === "size-dasc") {
        return [...appList].sort((a, b) => a.ratingAvg - b.ratingAvg);
      } else {
        return appList;
@@ -61,7 +61,7 @@ const Installation = () => {
           >
             <option value="none">Sort by size</option>
             <option value="size-asc">High --&gt; Low</option>
-            <option value="rating-dasc">Low --&gt; Low</option>
+            <option value="rating-dasc">Low --&gt; High</option>
           </select>
         </label>
       </div>
