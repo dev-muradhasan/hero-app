@@ -2,15 +2,17 @@ import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import App from "../Components/App";
 import AppsNotFound from "./AppsNotFound";
+import AppsLoading from "../Components/AppsLoading";
 
 const Apps = () => {
-  const { appData } = useApps();
+  const { appData,loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.toLocaleLowerCase().replace(/\s+/g, "");
   const searchedApp = term ? appData.filter(
     (app) => app.title.toLocaleLowerCase().replace(/\s+/g, "").includes(term),
   ) : appData ;
  
+    if(loading) return <AppsLoading count={32}></AppsLoading>
 
   return (
     <div className="max-w-screen-2xl w-full mx-auto px-4 md:px-8 lg:px-12">

@@ -65,9 +65,9 @@ const Installation = () => {
         {sortedItem.map((app) => (
           <div
             key={app.id}
-            className="flex justify-between items-center bg-white mb-6 p-4 rounded-lg"
+            className="flex flex-col md:flex-row justify-between items-center gap-5 bg-white mb-6 p-4 rounded-lg"
           >
-            <div className="flex items-center gap-6">
+            <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="w-24 h-24 border border-gray-300 rounded-lg bg-base-200 p-3">
                 <img src={app.image} alt={app.title} />
               </div>

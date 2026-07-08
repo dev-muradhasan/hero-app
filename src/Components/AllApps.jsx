@@ -12,12 +12,15 @@ const AllApps = ({ slicedAppData }) => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
-        {slicedAppData.map((app) => (
+        { slicedAppData.map((app) => (
           <App key={app.id} app={app}></App>
         ))}
       </div>
-      <div className='flex justify-center mt-10'>
-        <Link to={'/apps'} className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white px-10 hover:scale-102 transition ease-in-out">
+      <div className="flex justify-center mt-10">
+        <Link
+          to={"/apps"}
+          className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white px-10 hover:scale-102 transition ease-in-out"
+        >
           Show All
         </Link>
       </div>
