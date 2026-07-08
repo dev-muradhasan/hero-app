@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router";
 import googlePlay from '../assets/icons8-google-play-store-96.png'
 import appStore from '../assets/icons8-app-store-96.png'
@@ -24,34 +24,25 @@ const Banner = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-5">
           <Link
             to={"https://play.google.com/store/apps"}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex w-fit font-semibold text-xl btn bg-white"
           >
-            <img
-              className="w-8 h-8"
-              src={googlePlay}
-              alt=""
-            />{" "}
-            Google Play
+            <img className="w-8 h-8" src={googlePlay} alt="" /> Google Play
           </Link>
           <Link
             to={"https://apps.apple.com/us/iphone/today"}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex w-fit font-semibold text-xl btn bg-white"
           >
-            <img
-              className="w-8 h-8"
-             src={appStore}
-              alt=""
-            />
+            <img className="w-8 h-8" src={appStore} alt="" />
             App Store
           </Link>
         </div>
       </div>
       <div>
-        <img
-          className="w-2xl block mx-auto"
-          src={hero}
-          alt=""
-        />
+        <img className="w-2xl block mx-auto" src={hero} alt="" />
       </div>
     </div>
   );

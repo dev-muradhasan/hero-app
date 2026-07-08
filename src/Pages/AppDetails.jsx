@@ -1,14 +1,14 @@
-import React from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import AppDetails1st from "../Components/AppDetails1st";
 import AppDetailsChart from "../Components/AppDetailsChart";
+import PageLoading from "../Components/PageLoading";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { appData, loading } = useApps();
   const singleApp = appData.find((app) => String(app.id) === id);
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <PageLoading></PageLoading>;
 
   return (
     <div className="max-w-screen-2xl w-full mx-auto px-4 md:px-8 lg:px-12">

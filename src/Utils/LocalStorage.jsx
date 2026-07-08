@@ -12,18 +12,19 @@ export const loadAppsList = () => {
 };
 
 // save
-export const updateList = (appData) => {
-  const appList = loadAppsList();
-  try {
-    const isDuplicate = appList.some((p) => p.id === appData.id);
-    if (isDuplicate) return toast.error("Already added!");
-    const updatedAppList = [...appList, appData];
-    localStorage.setItem("appList", JSON.stringify(updatedAppList));
-    toast.success("Added to App List.");
-  } catch (err) {
-    console.log(err);
-  }
-};
+// export const updateList = (appData, setInstalled) => {
+//   const appList = loadAppsList();
+//   try {
+//     // const isDuplicate = appList.some((p) => p.id === appData.id);
+//     // if (isDuplicate) return toast.error("Already added!");
+//     const updatedAppList = [...appList, appData];
+//     localStorage.setItem("appList", JSON.stringify(updatedAppList));
+//     sesetInstalled(true)
+//     toast.success("Successfully Added to App List.");
+//   } catch (err) {
+//     console.log(err);
+//   }
+// };
 
 // delete
 export const removeFromAppList = (id) => {

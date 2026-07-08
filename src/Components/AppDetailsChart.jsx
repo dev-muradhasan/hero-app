@@ -1,5 +1,5 @@
-import React from 'react';
-import { Bar, ComposedChart, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+
+import { Bar, ComposedChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetailsChart = ({ singleApp }) => {
     const ratings =  singleApp.ratings;

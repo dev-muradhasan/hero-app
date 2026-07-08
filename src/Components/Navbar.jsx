@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
 import logo from '../assets/logo.png'
@@ -103,6 +102,8 @@ const Navbar = () => {
       <div className="navbar-end lg:mr-10">
         <Link
           to={"https://github.com/dev-muradhasan"}
+          target="_blank"
+          rel="noreferrer"
           className="btn flex items-center gap-2 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
         >
           <FaGithub className="w-5 h-5" />

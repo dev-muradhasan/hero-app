@@ -1,9 +1,13 @@
-import React from "react";
+
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
-import { updateList } from "../Utils/LocalStorage";
+import { loadAppsList } from "../Utils/LocalStorage";
+import review from '../assets/icon-review.png'
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const AppDetails1st = ({ singleApp }) => {
+  const [installed, setInstalled] = useState(false);
   const {
     image,
     title,
@@ -14,6 +18,25 @@ const AppDetails1st = ({ singleApp }) => {
     reviews,
     size,
   } = singleApp;
+
+  useEffect(() => {
+    const appList = loadAppsList();
+    const isInstalled = appList.some((app) => app.id === singleApp.id);
+    setInstalled(isInstalled);
+  }, [singleApp]);
+
+  const updateList = (appData) => {
+    const appList = loadAppsList();
+    const isDuplicate = appList.some((app) => app.id === appData.id);
+    if (isDuplicate) {
+      toast.error("Already Installed!");
+      return;
+    }
+    const updatedList = [...appList, appData];
+    localStorage.setItem("appList", JSON.stringify(updatedList));
+    setInstalled(true);
+    toast.success("App Installed Successfully!");
+  };
 
   return (
     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 ">
@@ -48,11 +71,7 @@ const AppDetails1st = ({ singleApp }) => {
             </span>
           </div>
           <div className="flex flex-col items-center lg:items-start gap-2">
-            <img
-              className="w-10 h-10"
-              src="/src/assets/icon-review.png"
-              alt="review icon"
-            />
+            <img className="w-10 h-10" src={review} alt="review icon" />
             <span className="text-[#001931]/80">Total Reviews</span>
             <span className="text-[#001931] text-4xl font-extrabold">
               {reviews >= 100 ? `${reviews}K+` : `${reviews}M+`}
@@ -62,9 +81,12 @@ const AppDetails1st = ({ singleApp }) => {
         <div className="flex justify-center lg:justify-start">
           <button
             onClick={() => updateList(singleApp)}
-            className="btn text-white text-xl font-semibold mt-7 bg-[#00D390]"
+            disabled={installed}
+            className={`btn mt-7 text-xl font-semibold text-white bg-[#00D390] ${
+              installed ? "cursor-not-allowed" : ""
+            }`}
           >
-            Install Now ({size}MB)
+            {installed ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

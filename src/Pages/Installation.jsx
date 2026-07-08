@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { loadAppsList, removeFromAppList } from "../Utils/LocalStorage";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
@@ -31,9 +31,9 @@ const Installation = () => {
 
    const sortedItem = (() => {
      if (sortOrder === "size-asc") {
-       return [...appList].sort((a, b) => a.size - b.size);
+       return [...appList].sort((a, b) => b.size - a.size);
      } else if (sortOrder === "rating-dasc") {
-       return [...appList].sort((a, b) => b.ratingAvg - a.ratingAvg);
+       return [...appList].sort((a, b) => a.ratingAvg - b.ratingAvg);
      } else {
        return appList;
      }
@@ -54,10 +54,14 @@ const Installation = () => {
           {appList.length} Apps Found
         </h4>
         <label className="form-control w-full max-w-xs">
-          <select className="select select-border" value={sortOrder} onChange={e=>setSortOrder(e.target.value)}>
-            <option value="none">Sort</option>
-            <option value="size-asc">Sort By Size</option>
-            <option value="rating-dasc">Sort By Ratings</option>
+          <select
+            className="select select-border"
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+          >
+            <option value="none">Sort by size</option>
+            <option value="size-asc">High --&gt; Low</option>
+            <option value="rating-dasc">Low --&gt; Low</option>
           </select>
         </label>
       </div>

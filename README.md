@@ -1,16 +1,41 @@
-# React + Vite
+# 📱 HERO.IO - Application Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HERO.IO is a modern and responsive application marketplace built with React. Users can browse applications, search apps instantly, view detailed information, install apps, and manage their installed applications using Local Storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Website
 
-## React Compiler
+https://your-live-site-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search applications by title
+- 📱 View complete application details
+- ⭐ Display ratings, downloads, reviews, and app size
+- 💾 Install apps with Local Storage
+- ✅ Install button becomes disabled after installation
+- 🔔 Success & Error Toast Notifications
+- 📊 Ratings visualization using Recharts
+- 📱 Fully Responsive Design
+- ⚡ Loading Skeleton while fetching data
+- ❌ Custom App Not Found page
+- 🎨 Beautiful UI with Tailwind CSS & DaisyUI
+
+---
+
+## 🛠 Technologies Used
+
+- React
+- React Router
+- Tailwind CSS
+- DaisyUI
+- React Icons
+- Axios
+- React Toastify
+- Recharts
+- Local Storage
+
+---

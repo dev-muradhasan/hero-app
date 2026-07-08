@@ -1,4 +1,4 @@
-import React from 'react';
+
 import error404 from '../assets/error-404.png'
 import { Link } from 'react-router';
 

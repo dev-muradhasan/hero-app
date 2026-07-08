@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaStar } from 'react-icons/fa';
 import { MdOutlineFileDownload } from 'react-icons/md';
 import { Link } from 'react-router';
@@ -13,7 +13,7 @@ const App = ({app}) => {
         >
           <img
             className="w-full"
-            src={id===23? '/src/assets/pngwing.com (2).png': image}
+            src={image}
             alt={title}
             className="rounded-xl"
           />
