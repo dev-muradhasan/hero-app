@@ -61,7 +61,7 @@ const Installation = () => {
           >
             <option value="none">Sort by size</option>
             <option value="size-asc">High --&gt; Low</option>
-            <option value="rating-dasc">Low --&gt; High</option>
+            <option value="size-dasc">Low --&gt; High</option>
           </select>
         </label>
       </div>
